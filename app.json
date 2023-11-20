@@ -18,13 +18,23 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions": [
+        "INTERNET"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tokuabdisa.mapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "59b209b7-f930-4387-80d9-f1fc17c6dcb2"
+      }
+    },
+    "owner": "tokuabdisa"
   }
 }
